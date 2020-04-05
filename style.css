@@ -2,3 +2,36 @@
     text-decoration: none;
     color: red;
 }
+
+a:hover {
+    text-decoration: none;
+}
+
+header h1 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.grid {
+    background-color: #C8EEEE;
+    display: grid;
+    padding: 20px;
+    grid-column-gap: 20px;
+    grid-row-gap: 10px;
+    margin-bottom: 30px;
+    /* grid-template-columns: 200px 200px auto; */
+    grid-template-columns: 200px  auto;
+
+}
+
+.grid-item {
+    background-color: rgb(248, 246, 246);
+    font-size: 20px;
+    padding: 10px;
+
+}
+
+.grid-item a:hover {
+    text-decoration: none;
+}

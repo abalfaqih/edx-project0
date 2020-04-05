@@ -46,15 +46,16 @@ header h1 {
 }
 
 .grid3 {
-    background-color: rgb(240, 114, 114);
+    background-color: rgb(245, 28, 28);
     display: grid;
     padding: 20px;
     grid-column-gap: 20px;
     grid-row-gap: 10px;
+    margin: 10px 20% 30px ;
     margin-bottom: 30px;
     /* grid-template-columns: 200px 200px auto; */
     /* grid-template-columns: 40% Auto; */
-    grid-template-columns: 1000px;
+    grid-template-columns: auto;
 }
 
 
@@ -79,4 +80,23 @@ header h1 {
 #bullet-image {
     line-height: 1.5em;
     list-style-image: url(images/bullet.png);
+  }
+
+  .city-title {
+      font-size: 30px;
+      font-weight: 600;
+      text-align: center;
+      padding-top: 10px;
+  }
+  .city-text {
+      color: white;
+  }
+
+  .city-text a {
+      color:black;
+  }
+
+  .city-text a:hover {
+      text-decoration: none;
+      color: yellow
   }

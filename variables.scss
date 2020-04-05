@@ -1,0 +1,50 @@
+// Define background color for the grid
+$grid-bg-color:rgb(146, 150, 190);
+
+// common grid properties
+%grid-prop {
+    background-color: $grid-bg-color;
+    display: grid;
+    padding: 20px;
+    grid-column-gap: 20px;
+    grid-row-gap: 10px; 
+}
+
+.grid1 {
+    @extend %grid-prop;
+    margin-bottom: 30px;
+    grid-template-columns: 200px auto;
+}
+
+.grid2 {
+    @extend %grid-prop;
+    margin-bottom: 30px;
+    grid-template-columns: 40% Auto;
+}
+
+.grid3 {
+    @extend %grid-prop;
+    margin: 10px 20% 30px;
+    grid-template-columns: auto;
+
+    .city-text {
+        color: white;
+        font-size: 1.2em;
+    }
+}
+
+.grid4 {
+    background-color: $grid-bg-color;
+    @extend %grid-prop;
+    margin: 10px 20% 30px;
+    grid-template-columns: auto;
+
+    .city-text {
+        color: white;
+        font-size: 1.2em;
+
+    }
+}
+
+
+

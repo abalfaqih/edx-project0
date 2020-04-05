@@ -1,0 +1,38 @@
+.grid4, .grid3, .grid2, .grid1 {
+  background-color: #9296be;
+  display: grid;
+  padding: 20px;
+  grid-column-gap: 20px;
+  grid-row-gap: 10px;
+}
+
+.grid1 {
+  margin-bottom: 30px;
+  grid-template-columns: 200px auto;
+}
+
+.grid2 {
+  margin-bottom: 30px;
+  grid-template-columns: 40% Auto;
+}
+
+.grid3 {
+  margin: 10px 20% 30px;
+  grid-template-columns: auto;
+}
+.grid3 .city-text {
+  color: white;
+  font-size: 1.2em;
+}
+
+.grid4 {
+  background-color: #9296be;
+  margin: 10px 20% 30px;
+  grid-template-columns: auto;
+}
+.grid4 .city-text {
+  color: white;
+  font-size: 1.2em;
+}
+
+/*# sourceMappingURL=variables.css.map */

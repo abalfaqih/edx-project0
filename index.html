@@ -11,25 +11,48 @@
 </head>
 
 <body>
+    <!-- Almost everything is under this div -->
     <div class="container">
         <header>
             <h1>Hello, world!</h1>
         </header>
 
-        <div class="grid">
+        <!-- the intro grid1 -->
+        <div class="grid1">
             <div class="grid-item">
-                <img src="images/ahmed.jpg" width="100%"" alt="Ahmed Photo" />
+                <img src="images/ahmed.jpg" width="100%"" alt=" Ahmed Photo" />
+                <p class="photo-title">This is me with the Life-is-damn-serious look, wearing my favorite travelling
+                    shirt</p>
             </div>
             <div class="grid-item">
                 My name is Ahmed. I am probably the oldest student in this course.
-                If you want to know more about me, why I took this course, please click on the the About Me link below. I
-                live between two cities in South East Asia, Singapore and Malaysia. In case you need to know more about these two wornderful citis, click on the links below. 
+                If you want to know more about me, why I took this course, please click on the the About Me link below or <a href="about-me.html">here</a> if you can't wait.
+                I
+                live between two cities in South East Asia, Singapore and Malaysia. In case you need to know more about
+                these two wornderful citis, click on the links below.
                 If you want to know more about these cities click the links below.
                 <br>
-                This mini-site was created as project for edX C50 course offered by Harvard University. To learn more about it click <a href="https://online-learning.harvard.edu/course/cs50s-web-programming-python-and-javascript">here</a>. 
+                This mini-site was created as project for edX C50 course offered by Harvard University. To learn more
+                about it click <a
+                    href="https://online-learning.harvard.edu/course/cs50s-web-programming-python-and-javascript"
+                    target="_blank">here</a>.
             </div>
-        </div>
-        
+        </div> <!-- End of grid1-->
+
+        <!-- the list part-->
+        <header>
+            <h1>Lists!</h1>
+        </header>
+
+        <p>
+            Lists, ordered or unordered are the unsung heroes of HTML. You can use them for many things, including as
+            navigation menu. Did you know that? Not many people knew this. I knew that before anyone else. Hmmm, I sound
+            like someone you probably know who he is. <br>
+            Anyway, head of to see the different options for creating lists <a
+                href="https://getbootstrap.com/docs/4.4/components/list-group/" target="_blank">here</a> and copy one of
+            the ready made lists by the folks at bootstrap. Just like I did.
+        </p>
+
         <div>
             <un class="list-group">
                 <li class="list-group-item"><a href="about-me">About me</a></li>
@@ -37,7 +60,58 @@
                 <li class="list-group-item"><a href="malaysia">Malaysia</a></li>
             </un>
         </div>
-    </div>
+
+        <header>
+            <h1>Tables!</h1>
+        </header>
+        <p>
+            Everybody hates coding tables in HTML. Ok, may be not everybody. But I do. Too many tags, too many nestings.
+            For what? For a simple table. There has to be an easier way to do tables in HTML. I hope I can live long
+            enough to see a better and easier ways of doing tables. An alternative way to create table is to head <a
+                href="https://getbootstrap.com/docs/4.4/content/tables/" target="_blank">here</a> and copy one of the
+            ready made tables by the folks at bootstrap. Just like I did.
+        </p>
+        <!-- table start -->
+        <table class="table table-dark">
+            <thead>
+                <p>Check out my favorite programming YouTube Channels below. </p>
+
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Channel</th>
+                    <th scope="col">Notes</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td><a href="https://bit.ly/2UHSqNX" target="_blank">Derek Banas</a></td>
+                    <td>Derek covers every programming language under the sink. He is a bit fast, but a great teacher
+                        nevertheless</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td><a href="https://bit.ly/2R9h73F" target="_blank">Traversy Media</a></td>
+                    <td>Covers mainly web development. Great for Python and other languages. One of the best explainers
+                        anywhere</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td><a href="https://bit.ly/3bSJOtL" target="_blank">Alliwa Alakhdar</a></td>
+                    <td>This channel will blow your mind, or fill your stomach. Because is not a coding channel, it is
+                        actually a cooking channel that I follow and love. It covers mainly food from Yemen, considered
+                        by many as the best Arab food.</td>
+                </tr>
+            </tbody>
+        </table> <!-- table end-->
+
+
+        <!-- Just blank line -->
+        <div>
+
+        </div>
+    </div> <!-- End of Container-->
+
 </body>
 
 </html>

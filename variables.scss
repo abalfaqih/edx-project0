@@ -23,6 +23,7 @@ $grid-bg-color:rgb(146, 150, 190);
 }
 
 .grid3 {
+
     @extend %grid-prop;
     margin: 10px 20% 30px;
     grid-template-columns: auto;

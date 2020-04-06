@@ -64,3 +64,12 @@ header h1 {
     text-decoration: none;
     color: yellow
 }
+
+/* media  */
+/* will not print */
+@media print {
+    .screen-only {
+        display: none;
+    }
+
+}

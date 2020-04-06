@@ -66,7 +66,7 @@ header h1 {
 }
 
 /* media  */
-/* will not print */
+/* when users decide to print, any element with this class will not print */
 @media print {
     .screen-only {
         display: none;

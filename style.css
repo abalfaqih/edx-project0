@@ -8,6 +8,30 @@ a:hover {
     text-decoration: none;
 }
 
+/* grids  */
+
+.grid1 {
+    margin-bottom: 30px;
+    grid-template-columns: 400px auto;
+  }
+  
+  .grid2 {
+    margin-bottom: 30px;
+    grid-template-columns: 40% Auto;
+  }
+  
+  .grid3 {
+    margin: 10px 20% 30px;
+    grid-template-columns: auto;
+  }
+  
+  .grid4 {
+    background-color: #9296be;
+    margin: 10px 20% 30px;
+    grid-template-columns: auto;
+  }
+
+
 .table a {
     color: white;
 }
@@ -36,6 +60,9 @@ header h1 {
     text-decoration: none;
 }
 
+.photo {
+    width: 100%;
+}
 .photo-title {
     font-size: 16px;
     line-height: 20px;
@@ -67,6 +94,19 @@ header h1 {
 }
 
 /* media  */
+
+/* be more responsive */
+@media (max-width: 1000px) {
+    .grid1, .grid2 {
+         display: grid;
+         grid-template-columns: auto;
+     }
+
+     .photo {
+         height: 100%;
+     }
+ }
+
 /* when users decide to print, any element with this class will not print */
 @media print {
     .screen-only {

@@ -8,6 +8,10 @@ a:hover {
     text-decoration: none;
 }
 
+li span {
+    position: relative;
+    top: -2px
+}
 /* grids  */
 
 .grid1 {
